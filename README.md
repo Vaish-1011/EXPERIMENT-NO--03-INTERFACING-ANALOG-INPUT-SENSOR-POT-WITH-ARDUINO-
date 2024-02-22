@@ -93,11 +93,19 @@ void loop()
 }
 ```
 **Serial Monitor:**
+
 ![image](https://github.com/Vaish-1011/EXPERIMENT-NO--03-INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-/assets/135130074/22651499-aa09-41ab-8aee-f6a6deb265a2)
 
-**
+
+
+
+
+
+
 **Simulation output:** 
-**
+
+
+
 ![image](https://github.com/Vaish-1011/EXPERIMENT-NO--03-INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-/assets/135130074/c5c19dcd-066c-427c-89bc-9189940b5201)
 ![image](https://github.com/Vaish-1011/EXPERIMENT-NO--03-INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-/assets/135130074/00eff885-30ee-4939-96b3-eb62884122f4)
 
