@@ -1,10 +1,6 @@
  INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-
 
-
-
-
 **AIM**:  To interface a Analog  input (angular displacement sensor POT) and scale the values up on change in the input.
-
 
 **COMPONENTS REQUIRED:**
 1.	10 KΩPOT
@@ -13,9 +9,8 @@
 4.	USB Interfacing cable 
 5.	Connecting wires 
 6.	LED of choice 
+
 **
-
-
 **THEORY**: 
 
 **Analog signals:**
@@ -67,27 +62,45 @@ CIRCUIT DIAGRAM
 
 
 **PROGRAM** 
- 
+ ```
+int led=4;
+int sensorpot;
+void setup()
+{
+  pinMode(led, OUTPUT);
+  Serial.begin(9600);
+  
+}
 
-
-
-
-
-
-
-
+void loop()
+{
+  sensorpot=analogRead(A0);
+  Serial.print("data=");
+  Serial.println(sensorpot);
+  delay(500);
+  if(sensorpot>500)
+  {
+    digitalWrite(led,HIGH);
+    delay(100);
+    digitalWrite(led,LOW);
+    delay(100);
+  }
+  else
+  {
+    digitalWrite(led,LOW);
+    delay(100);
+  }
+}
+```
 
 **
 **Simulation output:** 
 **
-
+![image](https://github.com/Vaish-1011/EXPERIMENT-NO--03-INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-/assets/135130074/c5c19dcd-066c-427c-89bc-9189940b5201)
+![image](https://github.com/Vaish-1011/EXPERIMENT-NO--03-INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-/assets/135130074/00eff885-30ee-4939-96b3-eb62884122f4)
 
 [My image](username.github.com/repository/img/image.jpg)
 
 
-
-
-
-
-
-**RESULT: ** Arduino uno analog input functioning is learned and interfaced with digital input switch .
+**RESULT: ** 
+Arduino uno analog input functioning is learned and interfaced with digital input switch .
