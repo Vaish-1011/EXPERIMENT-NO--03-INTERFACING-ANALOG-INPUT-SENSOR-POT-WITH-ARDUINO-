@@ -1,4 +1,9 @@
- INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-
+ INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO
+ 
+## DATE : 22-02-2024
+## NAME : VAISHNAVI M																		             
+## ROLLNUMBER :  212221040175
+## DEPARTMENT : CSE
 
 **AIM**:  To interface a Analog  input (angular displacement sensor POT) and scale the values up on change in the input.
 
@@ -113,4 +118,5 @@ void loop()
 
 
 **RESULT:** 
+
 Arduino uno analog input functioning is learned and interfaced with digital input switch .
