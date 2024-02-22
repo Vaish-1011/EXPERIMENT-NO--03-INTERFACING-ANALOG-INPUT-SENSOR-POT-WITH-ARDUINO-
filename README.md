@@ -92,6 +92,8 @@ void loop()
   }
 }
 ```
+**Serial Monitor:**
+![image](https://github.com/Vaish-1011/EXPERIMENT-NO--03-INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-/assets/135130074/22651499-aa09-41ab-8aee-f6a6deb265a2)
 
 **
 **Simulation output:** 
@@ -102,5 +104,5 @@ void loop()
 [My image](username.github.com/repository/img/image.jpg)
 
 
-**RESULT: ** 
+**RESULT:** 
 Arduino uno analog input functioning is learned and interfaced with digital input switch .
